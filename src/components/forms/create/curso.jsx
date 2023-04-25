@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { api } from "../../../lib/axios";
+import { toast } from "react-toastify";
 
 export const FormCreateCurso = () => {
   const [campus, setCampus] = useState([] | null);

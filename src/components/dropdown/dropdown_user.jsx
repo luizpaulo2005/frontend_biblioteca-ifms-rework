@@ -6,7 +6,7 @@ export const DropdownUser = () => {
     <DropdownMenu.Root>
       <DropdownMenu.Trigger
         type="button"
-        className="inline-flex gap-2 items-center bg-slate-600 rounded-md pt-2 pb-2 pl-4 pr-4 m-1 transition-colors hover:bg-slate-500"
+        className="flex gap-2 items-center bg-slate-600 rounded-md h-12 px-4 m-1 transition-colors hover:bg-slate-500"
       >
         Categorias
         <CaretDown size={22} />

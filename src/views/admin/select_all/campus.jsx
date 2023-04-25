@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { api } from "../../../lib/axios";
 import { Helmet } from "react-helmet";
-import { HeaderAdmin } from "../../../components/header/header_admin";
+import { Header } from "../../../components/header/header";
 import { toast } from "react-toastify";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Plus, X } from "phosphor-react";
@@ -39,7 +39,7 @@ export const ASelectCampusAll = () => {
       <Helmet>
         <title>Admin - Lista de Campus</title>
       </Helmet>
-      <HeaderAdmin />
+      <Header />
       <div>
         <div className="flex justify-between p-3">
           <div className="text-2xl">Lista de Campus</div>

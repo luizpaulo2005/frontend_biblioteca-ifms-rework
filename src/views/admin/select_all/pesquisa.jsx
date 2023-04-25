@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { api } from "../../../lib/axios";
-import { HeaderAdmin } from "../../../components/header/header_admin";
+import { Header } from "../../../components/header/header";
 import { FileArrowDown, Plus, X } from "phosphor-react";
 import { FormCreatePesquisa } from "../../../components/forms/create/pesquisa";
 import * as Dialog from "@radix-ui/react-dialog";
@@ -39,7 +39,7 @@ export const ASelectPesquisaAll = () => {
       <Helmet>
         <title>Admin - Lista de Pesquisas</title>
       </Helmet>
-      <HeaderAdmin />
+      <Header />
       <div>
         <div className="flex justify-between p-3">
           <div className="text-2xl">Lista de Pesquisas</div>
